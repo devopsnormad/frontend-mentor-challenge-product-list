@@ -399,7 +399,7 @@ flex-grow: 1;
 /* Media Queries for Responsive Design */
 
 /* Mobile Styles (375px and below) */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .container {
       flex-direction: column;
       align-items: center;
