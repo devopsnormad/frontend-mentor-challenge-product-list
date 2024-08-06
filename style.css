@@ -404,14 +404,16 @@ flex-grow: 1;
       flex-direction: column;
       align-items: center;
     }
-  
+    .page-title{
+        text-align: center;
+    }
     .product-list {
       grid-template-columns: 1fr;
       gap: 15px;
     }
   
     .product-item img {
-      max-width: 100%;
+        max-width: 100%;
     }
   
     .cart {
@@ -420,10 +422,16 @@ flex-grow: 1;
     }
   
    .order-confirmation-content,
+   .add-cart-btn,
     .confirm-order-btn,
     .new-order-btn {
       width: 100%;
     }
+
+    .add-cart-btn{
+        width: 60%;
+        padding: 10px 20px;
+        margin-left: 5px;
+    }
   }
   
-  /
