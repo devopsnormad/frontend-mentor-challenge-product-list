@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Desserts</h1>
+    <div class="container">
+      <div id="product-list" class="product-list"></div>
+      <div class="cart">
+        <h2>Your Cart (<span>0</span>)</h2>
+        <div class="cart-content">
+          <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+          <p>Your added items will appear here</p>
+        </div>
+        <div class="cart-total">
+          <p>Order Total:</p>
+          <p>$0.0</p>
+        </div>
+        <div class="icon-carbon-neutral">
+          <img
+            src="assets/images/icon-carbon-neutral.svg"
+            alt="icon carbon neutral"
+          />
+          <p>This is a <strong>carbon-neutral</strong> delivery</p>
+        </div>
+
+        <div class="btn-class">
+          <button class="confirm-order-btn">Confirm Order</button>
+        </div>
+      </div>
+
+      <!-- Confirm Order -->
+      <div id="order-confirmation-modal" class="order-confirmation-modal">
+        <div class="order-confirmation-content">
+          <div class="order-title">
+            <img
+              src="assets/images/icon-order-confirmed.svg"
+              alt="Confirmation Icon"
+              class="confirmation-icon"
+            />
+            <h2>Order Confirmed</h2>
+            <p>We hope you enjoy your food!</p>
+          </div>
+          <div class="order-body">
+            <div class="order-summary">
+              <!-- Order items will be dynamically added-->
+            </div>
+            <div class="total-price">
+              <span>Order Total</span>
+              <span id="total-price-amount">$0.00</span>
+            </div>
+          </div>
+          <button class="new-order-btn">Start New Order</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Emmanuel Doji</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
