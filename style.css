@@ -411,7 +411,9 @@ flex-grow: 1;
       grid-template-columns: 1fr;
       gap: 15px;
     } */
-  
+  .product-list img {
+    width: 100%;
+  }
       
     .cart {
       width: 100%;
