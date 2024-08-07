@@ -44,7 +44,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 10px 20px;
+  width: 150px;
+  padding: 10px;
   border-radius: 30px;
   background-color: white;
   border: 1px solid hsl(12, 20%, 44%);
@@ -54,7 +55,7 @@ body {
   top: -20px;
   z-index: 1;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  margin-left: -40px;
+    right: 20px;
 }
 
 .add-cart-btn:hover {
@@ -70,7 +71,7 @@ body {
 .add-cart-btn.selected {
   background-color: hsl(14, 86%, 35%);
   color: white;
-  padding: 8px 20px;
+  padding: 10px;
 }
 
 .decrement-btn,
@@ -422,15 +423,12 @@ flex-grow: 1;
   
    .order-confirmation-content,
     .confirm-order-btn,
-    .new-order-btn {
+    .new-order-btn,
+    .add-cart-btn {
       width: 100%;
     }
 
-   
-  .add-cart-btn {
-    padding: 8px 20px;
-  }
-  .count-btn{
+  .count-btn img{
     width: 16px;
   }
   .cart-icon{
