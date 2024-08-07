@@ -428,11 +428,11 @@ flex-grow: 1;
     }
 
     .add-cart-btn{
-        width: 20%;
+        width: 50%;
     }
 
     .add-cart-btn.selected{
-        width: 20%;
+        width: 50%;
     }
 
   .count-btn img{
