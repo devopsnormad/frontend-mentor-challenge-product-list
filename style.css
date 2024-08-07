@@ -413,7 +413,8 @@ flex-grow: 1;
     }
   
     .product-item img {
-        width: auto;
+        width: 100%;
+        max-width: 300px; /* Set a maximum width for the images */
         border-radius: 10px;
         display: block;
       }
