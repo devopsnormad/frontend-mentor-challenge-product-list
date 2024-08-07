@@ -430,7 +430,9 @@ flex-grow: 1;
     .add-cart-btn{
         width: 50%;
     }
-
+    .add-cart-btn img{
+        width: 10%;
+    }
     .add-cart-btn.selected{
         width: 50%;
     }
