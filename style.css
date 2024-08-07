@@ -413,7 +413,7 @@ flex-grow: 1;
     }
   
     .product-item img {
-        width: auto;
+        width: 500px;
         border-radius: 10px;
         display: block;
       }
