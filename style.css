@@ -431,6 +431,10 @@ flex-grow: 1;
         width: 20%;
     }
 
+    .add-cart-btn.selected{
+        width: 20%;
+    }
+
   .count-btn img{
     width: 16px;
   }
