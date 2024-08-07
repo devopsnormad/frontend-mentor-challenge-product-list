@@ -431,5 +431,8 @@ flex-grow: 1;
     width: 50%;
     padding: 10px 30px;
   }
+  .cart-icon{
+    width: 10px;
+  }
   }
   
