@@ -423,13 +423,15 @@ flex-grow: 1;
     }
   
    .order-confirmation-content,
-   .add-cart-btn,
     .confirm-order-btn,
     .new-order-btn {
       width: 100%;
     }
 
    
-  
+  .add-cart-btn {
+    width: 50%;
+   
+  }
   }
   
