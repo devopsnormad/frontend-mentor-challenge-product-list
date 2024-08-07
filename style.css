@@ -412,10 +412,6 @@ flex-grow: 1;
       gap: 15px;
     }
   
-    .product-item img {
-        width: 100%;
-        max-width: 100%;
-      }
       
     .cart {
       width: 100%;
