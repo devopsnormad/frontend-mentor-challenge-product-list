@@ -429,16 +429,11 @@ flex-grow: 1;
       width: 100%;
     }
 
-    .add-cart-btn {
-        width: auto;
-        padding: 10px 20px;
-        margin: 10px auto 0 -30px; 
-        border-radius: 30px;
-        text-align: center;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+   
+  .add-cart-btn {
+    width: auto;
+    padding: 10px 20px;
+    margin: 10px auto; 
+  }
   }
   
