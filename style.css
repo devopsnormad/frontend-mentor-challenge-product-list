@@ -428,8 +428,10 @@ flex-grow: 1;
 
    
   .add-cart-btn {
-    width: 50%;
-    padding: 10px 30px;
+    padding: 8px 20px;
+  }
+  .count-btn{
+    width: 16px;
   }
   .cart-icon{
     width: 10px;
