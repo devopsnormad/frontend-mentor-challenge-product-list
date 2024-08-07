@@ -423,9 +423,12 @@ flex-grow: 1;
   
    .order-confirmation-content,
     .confirm-order-btn,
-    .new-order-btn,
-    .add-cart-btn {
+    .new-order-btn {
       width: 100%;
+    }
+
+    .add-cart-btn{
+        width: 20%;
     }
 
   .count-btn img{
